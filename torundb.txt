@@ -1,0 +1,13 @@
+docker exec -it employeemanagement-postgres-1 psql -U postgres -d employee_mgmt
+
+CREATE TABLE employees(name VARCHAR(100), emp_id VARCHAR(10) UNIQUE, email VARCHAR(100) UNIQUE, phonenum BIGINT, dept VARCHAR(50), doj DATE, role VARCHAR(50));
+\q
+manual backend restart container
+
+then add
+
+again
+docker exec -it employeemanagement-postgres-1 psql -U postgres -d employee_mgmt
+
+\dt
+SELECT * FROM employees;

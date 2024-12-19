@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+build/
+dist/
+*.log
+
+# Environment files
+.env
+.env.* 
+
+# Vercel deployment settings
+.vercel/
+
+# IDE/editor files (Optional)
+.vscode/
+.idea/
+
+# MacOS Finder and Linux trash files (Optional)
+.DS_Store
+Thumbs.db
